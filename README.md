@@ -82,9 +82,9 @@ Install 3.10 or higher version of phyton
    git clone https://github.com/AnthonyLuisAcosta/EnerViz.git
    ```
 
-2. Run "launch_enerviz.bat"
+2. Launch "run_enerviz.bat"
    ```sh
-   launch_enerviz.bat
+   run_enerviz.bat
    ```
 
 3. Wait until all python libraries are installed
