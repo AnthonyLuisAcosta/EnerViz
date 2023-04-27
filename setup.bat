@@ -1,0 +1,1 @@
+cd /d "EnerViz_webapp/" && call "setup.bat"
