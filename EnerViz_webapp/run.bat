@@ -1,7 +1,5 @@
 @echo off
-title Installing Requirements
-pip install -r requirements.txt
-python -m nltk.downloader stopwords
+cd /d "%~dp0"
 echo Launching Visualization...
 start "Visualization" cmd /c 
 start cmd /c "title Enerviz && py app.py"
