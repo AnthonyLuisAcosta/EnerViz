@@ -1,0 +1,20 @@
+[
+ ["purok", "1"],
+ ["purok", "2"],
+ ["purok", "3"],
+ ["purok", "4"],
+ ["purok", "5"],
+ ["purok", "6"],
+ ["zone", "1"],
+ ["zone", "2"],
+ ["zone", "3"],
+ ["zone", "4"],
+ ["zone", "5"],
+ ["zone", "6"],
+ ["brown", "out"],
+ ["feeder", "1"],
+ ["feeder", "2"],
+ ["feeder", "3"],
+ ["feeder", "4"],
+ ["albay", "power", "and", "energy","corp"]
+ ]
