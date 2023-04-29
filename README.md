@@ -45,7 +45,6 @@
 ## About The Project
 <img src="EnerViz_webapp/assets/screencapture-127-0-0-1-8050-dashboard-2023-04-25-07_23_50.png" alt="Sample" width="100%" height="100%">
    Welcome to EnerViz - the Albay Electric Provider Sentiment Visualizer! EnerViz is a web application designed to help you visualize and analyze sentiment data related to the Albay Electric Provider. Our goal is to provide a user-friendly platform for users to track and understand the public sentiment towards the Albay Electric Provider. Our sentiment visualizer uses natural language processing and machine learning techniques to analyze comments and tweets to determine the overall sentiment towards the Albay Electric Provider. The data is then visualized in an easy-to-understand format, allowing you to quickly identify trends and gain insights into the public's perception of the Albay Electric Provider. We hope that EnerViz will be a valuable tool for Albay Electric Provider's customers, stakeholders, and management team. Whether you are interested in tracking sentiment related to customer service, rates, or any other aspect of the Albay Electric Provider, our sentiment visualizer can help you stay informed. Thank you for using EnerViz. If you have any questions or feedback, please don't hesitate to contact us.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -82,9 +81,9 @@ Install 3.10 or higher version of phyton
    git clone https://github.com/AnthonyLuisAcosta/EnerViz.git
    ```
 
-2. Launch "run_enerviz.bat"
+2. Launch "setup.bat"
    ```sh
-   run_enerviz.bat
+   setup.bat
    ```
 
 3. Wait until all python libraries are installed
@@ -109,7 +108,7 @@ Install 3.10 or higher version of phyton
      * emoji
 
    ```
- 4. Once the installation is done, it will atomatically open your browser and navigate to:
+ 4. Once the installation is done, go to your desktop and run the EnerViz app. It will atomatically open your browser and navigate to:
    ```sh
    http://127.0.0.1:8050/
    ```
@@ -133,10 +132,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
