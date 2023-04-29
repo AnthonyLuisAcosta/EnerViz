@@ -256,6 +256,24 @@ layout = html.Div(className = '', children=[
             html.Label(id='', className='', children='Step 5:  ',style={'font-weight':'bold'}),
             html.Label(id='', className='', children='Click " Preprocess and Classify" button.'),
             html.Br(id='', className='', children=[]),
+                 html.Table([
+            html.Thead(
+                html.Tr([html.Th('File Name Format',style={'padding': '10px'}),html.Th('Merged File Name Format',style={'padding': '10px'})],
+                        style={'background-color': '#bbe6ff', 'font-weight': 'bold'})
+            ),
+            html.Tbody([
+                html.Tr([
+                    html.Td('Model-Start_Date-end_Time_saved.csv', style={'padding': '10px'}), 
+                    html.Td('Model-Merged-Start_Date-end-Time_saved.csv', style={'padding': '10px'}), 
+                ], style={}),
+                
+            ], style={'border-collapse': 'collapse'}),
+            
+        ], style={'border': '1px solid gray','width':'100%','table-layout': 'fixed'}),
+            html.Br(id='', className='', children=[]),
+            html.Label(id='', className='', children=' The finished classified data will be saved at EnerViz\EnerViz_webapp\Datasets\classified'),
+            html.Br(id='', className='', children=[]),
+            html.Br(id='', className='', children=[]),
             html.Br(id='', className='', children=[]),
             html.Label(id='', className='', children='Step 6:  ',style={'font-weight':'bold'}),
             html.Label(id='', className='', children=' Proceed to Dashboard or issues to view the results.'),

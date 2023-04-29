@@ -1,1 +1,3 @@
-cd /d "EnerViz_webapp/" && call "setup.bat"
+@echo off
+cd /d "%~dp0/EnerViz_webapp/"
+call setup.bat

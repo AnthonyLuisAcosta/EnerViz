@@ -362,3 +362,10 @@ body {
   content: attr(title);
   display: none;
 }
+
+.check-box {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  margin: auto;
+}
